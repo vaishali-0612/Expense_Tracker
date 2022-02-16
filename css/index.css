@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+ 
+body {
+    background-image: url(https://images.unsplash.com/photo-1518183214770-9cffbec72538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1vbmV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ 
+::selection {
+    background: rgba(26, 188, 156, 0.3);
+}
+
+#icon1{
+    margin: 1px 1px;
+
+}
+#icon2{
+    margin: 1px 1px;
+}
+ 
+.container {
+    max-width: 500px;
+    padding: 100px;
+    margin: 10px auto;
+}
+ 
+.wrapper {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+ 
+.title {
+    height: 90px;
+    background: rgb(30, 79, 99);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.wrapper form {
+    padding: 50px 80px 100px 50px;
+}
+ 
+ .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+ 
+.row input {
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(26, 188, 156, 0.3);
+    font-size: 16px;
+    transition: all 1s ease;
+}
+ 
+form .row input:focus {
+    border-color: #000000;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+ 
+form .row input::placeholder {
+    color: rgb(0, 0, 0);
+}
+ 
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.pass {
+    margin: -8px 0 20px 0;
+}
+ 
+.pass a {
+    color: rgb(255, 170, 170);
+    font-size: 17px;
+    text-decoration: none;
+}
+ 
+.pass a:hover {
+    text-decoration: underline;
+}
+ 
+.button input {
+    size: 50px;
+    width: 100px;
+    color:white;
+    font-size: 20px;
+    font-weight: 50px;
+    padding-left: 10px;
+    background: black;
+    text-decoration: white;
+    cursor: pointer;
+}
+ 
+.button input:hover {
+    background: rgb(30, 79, 99);
+    color: black;
+}
+ 
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+ 
+.signup-link a {
+    color: #ecb976;
+    text-decoration: none;
+}
+ 
+.signup-link a:hover {
+    text-decoration: underline;
+}
